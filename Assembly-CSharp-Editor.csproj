@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,14 +53,17 @@
     <UnityVersion>2021.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\AnimUnhideTool.cs" />
     <Compile Include="Assets\StarterAssets\Editor\ScriptingDefineUtils.cs" />
     <Compile Include="Assets\StarterAssets\Editor\ThirdPersonStarterAssetsDeployMenu.cs" />
-    <Compile Include="Assets\StarterAssets\Editor\PackageChecker\PackageChecker.cs" />
     <Compile Include="Assets\StarterAssets\Editor\StarterAssetsDeployMenu.cs" />
-    <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\AnimUnhideTool.cs" />
     <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Readme\ReadmeEditor.cs" />
     <Compile Include="Assets\Malbers Animations\Common\Scripts\Editor\Menu\MalbersMenu.cs" />
+    <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\StarterAssets\Editor\PackageChecker\PackageChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StarterAssets\Editor\PackageChecker\PackageImportList.txt" />
